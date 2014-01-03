@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		472C852518751939005FA3E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 472C852418751939005FA3E9 /* main.cpp */; };
-		472C852918751950005FA3E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472C852718751950005FA3E9 /* Images.xcassets */; };
-		47AF008918751C020038CA1E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 47AF008818751C020038CA1E /* res */; };
 		47AF008D18751D6A0038CA1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AF008C18751D6A0038CA1E /* Cocoa.framework */; };
 		47AF008F18751D700038CA1E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AF008E18751D700038CA1E /* OpenGL.framework */; };
 		47AF009118751D800038CA1E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AF009018751D800038CA1E /* IOKit.framework */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		472C852418751939005FA3E9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		472C852618751950005FA3E9 /* glfw3-sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "glfw3-sample-Info.plist"; path = "OSX/glfw3-sample-Info.plist"; sourceTree = "<group>"; };
-		472C852718751950005FA3E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OSX/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		47AF008818751C020038CA1E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		47AF008C18751D6A0038CA1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		47AF008E18751D700038CA1E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		47AF009018751D800038CA1E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -51,7 +47,6 @@
 			children = (
 				472C852418751939005FA3E9 /* main.cpp */,
 				472C852618751950005FA3E9 /* glfw3-sample-Info.plist */,
-				472C852718751950005FA3E9 /* Images.xcassets */,
 				47D9C27C187517DD003D46FE /* Frameworks */,
 			);
 			name = OSX;
@@ -61,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				47AF009618751E5A0038CA1E /* OSX */,
-				47AF008818751C020038CA1E /* res */,
 				47D9C27B187517DD003D46FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,8 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472C852918751950005FA3E9 /* Images.xcassets in Resources */,
-				47AF008918751C020038CA1E /* res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
